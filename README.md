@@ -1,4 +1,4 @@
-# S3 Bucket Tagging Script
+# S3 Bucket Tagging Batch Script
 
 ## Overview
 This is a master script to batch migrate and manage the tagging of AWS S3 buckets. The defult setup ensures that specific tags (`UUCode`, `DelegationID`, and `MergerCandidate`) are present on each bucket.  Change these values to suit your environment.  If any of these tags are missing from a bucket, the script will ADD each of them. Existing resource tags are maintained and stay intact.  Logging of operations is also integrated for tracking and troubleshooting purposes.
